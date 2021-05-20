@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login Page</title>
+  <link href="demo.css" media="all" rel="stylesheet" type="text/css">
+  <script type="text/javascript">
+    function login(username, password) {
+        if (username == "demo" && password == "mode") {
+            window.location = "welcome.html";
+        } else {
+            window.location = "error.html";
+        }
+    }
+  </script>
+</head>
+<body>
+  <div id="container">
+    <h1>Date Input</h1>
+<!--    <input  id='mydate' class='date_container' type= date min="2021-05-15" max="2021-05-31" >-->
+    <input  id='mydate' class='date_container' type= date min="2019-05-15" max="2023-05-31" >
+<!--    <input  id='mydate' class='date_container' type= date  >-->
+  </div>
+</body>
+</html>
