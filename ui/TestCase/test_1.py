@@ -10,6 +10,7 @@ class TestDate(BaseTest):
 
     def test_1(self):
         pagenotewriter = NoteWriterPage(self.driver)
-        pagenotewriter.test_date()
+        # pagenotewriter.test_date()
+        pagenotewriter.test_tooltip()
 
 # python3 -m unittest TestCase.test_1

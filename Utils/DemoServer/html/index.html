@@ -1,24 +1,45 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <title>Login Page</title>
   <link href="demo.css" media="all" rel="stylesheet" type="text/css">
   <script type="text/javascript">
     function login(username, password) {
-        if (username == "demo" && password == "mode") {
-            window.location = "welcome.html";
-        } else {
-            window.location = "error.html";
-        }
+      if (username == "demo" && password == "mode") {
+        window.location = "welcome.html";
+      } else {
+        window.location = "error.html";
+      }
     }
   </script>
 </head>
+
 <body>
   <div id="container">
     <h1>Date Input</h1>
-<!--    <input  id='mydate' class='date_container' type= date min="2021-05-15" max="2021-05-31" >-->
-    <input  id='mydate' class='date_container' type= date min="2019-05-15" max="2023-05-31" >
-<!--    <input  id='mydate' class='date_container' type= date  >-->
+    <!--    <input  id='mydate' class='date_container' type= date min="2021-05-15" max="2021-05-31" >-->
+    <input id='mydate' class='date_container' type=date min="2019-05-15" max="2023-05-31">
+    <!--    <input  id='mydate' class='date_container' type= date  >-->
+    <div id="container1">
+      <h3>Icon</h3>
+      <button class="button" title="Button" >my button</button>
+             <p class="paragraph" title="Free Web tutorials3">W3Schools.com</p>
+      <i aria-hidden="true" class="sub-status-icon nosync ng-star-inserted" title="Icon">
+<!--        <svg height="100" width="100"><path d="M150 0 L75 200 L225 200 Z" /></svg>-->
+     ABC </i>
+    </div>
+<!--<div class="container">-->
+<!--  <h3>Tooltip Example</h3>-->
+<!--  <a id='anchor' href="#" data-toggle="tooltip" title="Hooray!">Hover over me</a>-->
+<!--</div>-->
+
   </div>
+
 </body>
+<!--<script>-->
+<!--$(document).ready(function(){-->
+<!--  $('[data-toggle="tooltip"]').tooltip();-->
+<!--});-->
+<!--</script>-->
 </html>

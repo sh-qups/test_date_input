@@ -5,9 +5,30 @@ body {
 }
 #container {
     width: 30em;
-    height: 15em;
+    height: 30em;
     margin: 5em auto;
     background: white;
     border: 1px solid gray;
     padding: 0.5em 2em;
+}
+
+
+.button{
+width: 100px;
+height: 50px;
+background-color: purple;
+border-radius: 7px
+}
+
+
+.button:hover{
+width: 100px;
+height: 50px;
+background-color: black;
+border-radius: 7px
+}
+
+
+.nosync:hover{
+color: green;
 }

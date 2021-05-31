@@ -15,7 +15,8 @@ class BaseTest(unittest.TestCase):
         options = Options()
         options.add_argument("--start-fullscreen")
         self.driver = webdriver.Chrome(executable_path=pathlib.Path(__file__).parent / "../browser/chromedriver")
-        # self.driver.maximize_window()
+        # self.driver = webdriver.Chrome(executable_path=pathlib.Path(__file__).parent / "../browser/geckodriver")
+        self.driver.maximize_window()
         self.driver.set_page_load_timeout(3000)
         self.driver.get('http://localhost:7272/')
 
